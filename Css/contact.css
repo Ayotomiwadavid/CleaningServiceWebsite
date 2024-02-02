@@ -1,0 +1,542 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contactPageHero{
+    width: 100%;
+    height: 70vh;
+    background: url(../images/contactBgd.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contactHeroOverlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 50px;
+}
+
+.contactHeroOverlay span{
+    height: 120px;
+    padding: 5px;
+    background-color: purple;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.sectionTextsCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pText{
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-align: left;
+    width: 100%;
+    text-transform: capitalize;
+    color: purple;
+    padding: 10px 10px 0 0;
+}
+
+.contactCompanyName{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.contactFormSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.headerSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.letConmect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.lets{
+    font-size: 23px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+
+.connect{
+    font-size: 23px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: purple;
+}
+
+.headerText{
+    text-align: center;
+    padding: 0 210px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.additionalText{
+    text-align: center;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family: 'arial';
+    padding: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding: 15px;
+}
+
+.inputAndLabelCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputAndLabelCont label{
+    padding: 10px 10px 5px 0;
+    text-transform: capitalize;
+    width: 90%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.inputAndLabelCont input{
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    outline: none;
+}
+
+.inputAndLabelCont input::placeholder{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.inputAndLabelCont textarea{
+    width: 90%;
+    height: 120px;
+    outline: none;
+    border: 1px solid #808080;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    resize: none;
+}
+
+.inputAndLabelCont textarea::placeholder{
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.conatactFormSubmitBtn{
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    height: 45px;
+    width: 200px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: purple;
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 15px;
+    transition: all .5s ease-in-out;
+}
+
+.conatactFormSubmitBtn:hover{
+    scale: 0.9;
+}
+
+@media screen and (max-width:767px){
+    .contactPageHero{
+        width: 100%;
+        height: 70vh;
+        background: url(../images/contactBgd.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .contactHeroOverlay{
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 15px;
+    }
+    
+    .contactHeroOverlay span{
+        height: 120px;
+        padding: 5px;
+        background-color: purple;
+        border-radius: 15px;
+        margin-right: 10px;
+    }
+    
+    .sectionTextsCont{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .pText{
+        font-size: 35px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        text-align: left;
+        width: 100%;
+        text-transform: capitalize;
+        color: purple;
+        padding: 10px 10px 0 0;
+    }
+    
+    .contactCompanyName{
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: #fff;
+        text-transform: capitalize;
+    }
+    
+    .contactFormSection{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .headerSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .letConmect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .lets{
+        font-size: 23px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        margin-right: 5px;
+    }
+    
+    .connect{
+        font-size: 23px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        color: purple;
+    }
+    
+    .headerText{
+        text-align: center;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    
+    .additionalText{
+        text-align: center;
+        font-weight: lighter;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-family: 'arial';
+        padding: 10px;
+    }
+    
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .inputAndLabelCont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .inputAndLabelCont label{
+        padding: 10px 10px 5px 0;
+        text-transform: capitalize;
+        width: 90%;
+        text-align: left;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .inputAndLabelCont input{
+        width: 90%;
+        height: 40px;
+        padding: 10px;
+        background: transparent;
+        border: 1px solid #808080;
+        border-radius: 5px;
+        outline: none;
+    }
+    
+    .inputAndLabelCont input::placeholder{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    
+    .inputAndLabelCont textarea{
+        width: 90%;
+        height: 120px;
+        outline: none;
+        border: 1px solid #808080;
+        padding: 10px;
+        outline: none;
+        border-radius: 5px;
+        background: transparent;
+        resize: none;
+    }
+    
+    .inputAndLabelCont textarea::placeholder{
+        text-transform: capitalize;
+        font-size: 14px;
+    }
+    
+    .conatactFormSubmitBtn{
+        margin: 20px 0;
+        padding: 10px;
+        text-align: center;
+        height: 45px;
+        width: 200px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: purple;
+        color: #fff;
+        font-size: 16px;
+        text-transform: capitalize;
+        border-radius: 15px;
+        transition: all .5s ease-in-out;
+    }
+    
+    .conatactFormSubmitBtn:hover{
+        scale: 0.9;
+    }
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 3vw;
+}
+
+.section img{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+.introCont{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.inroHeader{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    color: purple;
+}
+
+.bigHeader{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.bigHeader span{
+    color: purple;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.intoduction{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding-top: 0;
+}
+
+.sectionedIntroCont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.sectionedIntro{
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.titleAndDescriptionCont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+
+.tile{
+    width: 100%;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.description{
+    width: 100%;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.wrapper{
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ladConatiner{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: purple;
+    border-radius: 10px;
+}
+
+.introtextforlastsec{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 15px;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width:767px){
+    .wrapper{
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .ladConatiner{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: purple;
+        border-radius: 10px;
+    }
+    
+    .introtextforlastsec{
+        text-align: center;
+        color: #fff;
+        font-size: 16px;
+        font-weight: lighter;
+        padding: 15px;
+        font-family: sans-serif;
+        line-height: 2rem;
+    }
+}

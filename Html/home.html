@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+    <link rel="shortcut icon" href="../images/Elsa_Logo.webp">
+    <title>Elisa House Cleaning Service</title>
+</head>
+<body>
+    <header class="header" data-aos="fade-in">
+        <div class="logoContainer">
+            <img src="../images/Elsa_Logo.webp" alt="logo">
+            </div>
+            <ul class="navList">
+            <li class="navItem" id="navItem">home</li>
+            <li class="navItem" id="navItem">about</li>
+            <li class="navItem" id="navItem">services</li>
+            <li class="navItem" id="navItem">contact</li>
+            </ul>
+            <i class="fa fa-bars" id="bars" onClick="handleBarsClick()"></i>
+    </header>
+    <aside class="sideBar" id="sideBar">
+        <div class="switchingIcon">
+            <i class="fa fa-times" id="times" onClick="handleTimesClick()"></i>
+            </div>
+            <ul class="sideBarNavList">
+            <li class="sideBarNavItem" id="navItem">home</li>
+            <li class="sideBarNavItem" id="navItem">about</li>
+            <li class="sideBarNavItem" id="navItem">services</li>
+            <li class="sideBarNavItem" id="navItem">contact</li> 
+            </ul>
+    </aside>
+    <section class="heroSection" data-aos="fade-left">
+        <aside class="heroSectionOverlay">
+            <div class="heroeSecTextContainer">
+                <div class="headingText">
+                    <h2 class="heroSecHeadingText">
+                        welcome to <span>elsa house cleaning</span>
+                        your trusted eco-friendly cleaning solution.
+                    </h2>
+                </div>
+                <div class="paragraphText">
+                    <p class="heroSecParagraphText">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Fuga perferendis iusto repudiandae accusamus consequuntur, aperiam at voluptatem 
+                        accusantium incidunt deserunt error id beatae adipisci sunt assumenda.
+                    </p>
+                </div>
+            </div>
+            <div class="heroSectionForm">
+                <form class="heroContactForm" id="homeSecForm">
+                    <h1 class="formHeader">enquire</h1>
+                    <p class="formHeadertext">Lorem, ipsum dolor sit amet consectetur.</p>
+                    <div class="inputAndLabel">
+                        <label for="">phone number</label>
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <input type="tel" id="homeSecPhone" placeholder="e.g +3634484494884">
+                        </div>
+                    </div>
+                    <div class="inputAndLabel">
+                        <label for="">email</label>
+                        <div>
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" id="homeSecEmail" placeholder="e.g JohnDoe123@gmail.com">
+                        </div>
+                    </div>
+                    <div class="inputAndLabel">
+                        <label for="">Fullname</label>
+                        <div>
+                            <i class="fa fa-user"></i>
+                            <input type="text" id="homeSecfullname" placeholder="e.g John Doe">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Enquire Now</button>
+                </form>
+            </div>
+        </aside>
+    </section>
+    <section class="benefitSection" data-aos="fade-down-left">
+        <div class="sectionHeadingContainer">
+            <p class="sectionTitle">Benefit of being our valued <br> <span class="client">client</span></p>
+            <p class="smallheading">choosing elsa cleaning service for your eco-friendly cleaning comes with a lot of benefits</p>
+        </div>
+        <div class="benefitContainer" id="benefitContainer">
+            <div class="benefitCard">
+                <img src="../images/benefit 1.webp" alt="benefit image">
+                <div class="benefitDetails">
+                    <h1 class="benefitTitle">Time Savings</h1>
+                    <p class="benefitDescription">Clients can reclaim valuable time by outsourcing cleaning tasks, 
+                        allowing them to focus on more important priorities in their personal or professional lives.</p>
+                </div>
+            </div>
+            <div class="benefitCard">
+                <img src="../images/benefit 2.jpg" alt="benefit image">
+                <div class="benefitDetails">
+                    <h1 class="benefitTitle">Professional Expertise</h1>
+                    <p class="benefitDescription"> Cleaning services bring in trained professionals equipped with the right tools and 
+                        cleaning products, 
+                        ensuring a higher standard of cleanliness and hygiene</p>
+                </div>
+            </div>
+            <div class="benefitCard">
+                <img src="../images/benefit 3.webp" alt="benefit image">
+                <div class="benefitDetails">
+                    <h1 class="benefitTitle">Consistent Results</h1>
+                    <p class="benefitDescription"> Clients can expect a consistently clean and well-maintained space as 
+                        cleaning services follow regular schedules and professional protocols.</p>
+                </div>
+            </div>
+            <div class="benefitCard">
+                <img src="../images/benefit 4.jpg" alt="benefit image">
+                <div class="benefitDetails">
+                    <h1 class="benefitTitle">Customization</h1>
+                    <p class="benefitDescription"> Cleaning services can be tailored to meet specific needs, accommodating individual
+                        preferences or 
+                        addressing unique cleaning challenges in different areas of the client's space</p>
+                </div>
+            </div>
+            <div class="benefitCard">
+                <img src="../images/benefit 5.jfif" alt="benefit image">
+                <div class="benefitDetails">
+                    <h1 class="benefitTitle">Cost-Efficiency</h1>
+                    <p class="benefitDescription">Outsourcing cleaning services can be cost-effective, eliminating the need for 
+                        clients to invest in cleaning supplies, equipment, and the time required for thorough cleaning</p>
+                </div>
+            </div>
+            <div class="benefitCard">
+                <img src="../images/heroSection.jpg" alt="benefit image">
+                <div class="benefitDetails">
+                    <h1 class="benefitTitle">Health and Safety</h1>
+                    <p class="benefitDescription">A clean environment contributes to better health and safety, 
+                        reducing the risk of illness and 
+                        promoting a more comfortable and welcoming space for clients, their family, or their customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="reviewSection" data-aos="flip-right">
+        <header class="reviewSecHeader">
+           <p class="secHeader">hear from our happy <br> <p class="client">client</p></p>
+           <p class="secHeaderText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus 
+            nisi repudiandae ipsam optio 
+            eius minima error voluptatem ut quas laudantium.</p>
+        </header>
+        <div class="reviewContainer">
+            <div class="reviewCard">
+                <p class="feedbackMsg">Elsa House Cleaning Service exceeded my expectations! Their attention to detail is unmatched, 
+                    and my home has never looked so immaculate. 
+                    The team is thorough, professional, and the results speak for themselves. I'm a customer for life!
+                </p>
+                <div class="detailsContainer">
+                    <div class="imageAndNameContainer">
+                        <img src="../images/review2.jpeg" alt="profile image">
+                        <p class="customerName">jeffrey mathew</p>
+                    </div>
+                    <p>X X X X</p>
+                </div>
+            </div>
+            <div class="reviewCard">
+                <p class="feedbackMsg">Elsa House Cleaning Service exceeded my expectations! Their attention to detail is unmatched, 
+                    and my home has never looked so immaculate. 
+                    The team is thorough, professional, and the results speak for themselves. I'm a customer for life!
+                </p>
+                <div class="detailsContainer">
+                    <div class="imageAndNameContainer">
+                        <img src="../images/review3.jpg" alt="profile image">
+                        <p class="customerName">martins williams</p>
+                    </div>
+                    <p>X X X X</p>
+                </div>
+            </div>
+            <div class="reviewCard">
+                <p class="feedbackMsg">Elsa House Cleaning Service exceeded my expectations! Their attention to detail is unmatched, 
+                    and my home has never looked so immaculate. 
+                    The team is thorough, professional, and the results speak for themselves. I'm a customer for life!
+                </p>
+                <div class="detailsContainer">
+                    <div class="imageAndNameContainer">
+                        <img src="../images/review2 (1).jpg" alt="profile image">
+                        <p class="customerName">john mercy</p>
+                    </div>
+                    <p>X X X X</p>
+                </div>
+            </div>
+            <div class="reviewCard">
+                <p class="feedbackMsg">Elsa House Cleaning Service exceeded my expectations! Their attention to detail is unmatched, 
+                    and my home has never looked so immaculate. 
+                    The team is thorough, professional, and the results speak for themselves. I'm a customer for life!
+                </p>
+                <div class="detailsContainer">
+                    <div class="imageAndNameContainer">
+                        <img src="../images/review4.jpg" alt="profile image">
+                        <p class="customerName">godwin fedrick</p>
+                    </div>
+                    <p>X X X X</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" data-aos="fade-right">
+        <div class="firstFooterSection">
+            <div class="imgeAndsocialMediaCont">
+                <div class="logoContainer">
+                    <img src="../images/Elsa_Logo.webp" alt="logo">
+                </div>
+                <h3 class="links">elsa house cleaning service</h3>
+                <p class="briefIntro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, molestias. 
+                    Necessitatibus velit molestiae explicabo quod!
+                </p>
+                <div class="footerIconCont">
+                    <a href=""><svg class="svgIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></a>
+                    <a href=""><svg class="svgIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg></a>
+                </div>
+            </div>
+            <div class="footerLinksCont">
+                <h1 class="links">links</h1>
+                <ul class="navListlink">
+                    <li class="navItemlinks" id="navItem" onClick='navigationFunction()'>home</li>
+                    <li class="navItemlinks" id="navItem" onClick='navigationFunction()'>about</li>
+                    <li class="navItemlinks" id="navItem" onClick='navigationFunction()'>services</li>
+                    <li class="navItemlinks" id="navItem" onClick='navigationFunction()'>contact</li>
+                </ul>
+            </div>
+            <div class="footerServicesCont">
+                <h1 class="links">services</h1>
+                <ul class="navListlink">
+                    <li class="navItemlinks">Deep Cleaning Services</li>
+                    <li class="navItemlinks">Customized Cleaning Packages</li>
+                    <li class="navItemlinks">Move-In/Move-Out Cleaning</li>
+                </ul>
+            </div>
+            <div class="allContactCont">
+                <div class="contact">
+                    <svg class="svgIcon" class="svgIcon small" style="height: 30px; width:30px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+                    <div class="adressAndLabel">
+                        <h5 class="label">phone</h5>
+                        <p class="adress">+2349015580889</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon small" viewBox="0 0 512 512"><path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg>
+                    <div class="adressAndLabel">
+                        <h5 class="label">email</h5>
+                        <p class="adress">olusanyatomiwa97@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon small" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M256 0c17.7 0 32 14.3 32 32V66.7C368.4 80.1 431.9 143.6 445.3 224H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H445.3C431.9 368.4 368.4 431.9 288 445.3V480c0 17.7-14.3 32-32 32s-32-14.3-32-32V445.3C143.6 431.9 80.1 368.4 66.7 288H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H66.7C80.1 143.6 143.6 80.1 224 66.7V32c0-17.7 14.3-32 32-32zM128 256a128 128 0 1 0 256 0 128 128 0 1 0 -256 0zm128-80a80 80 0 1 1 0 160 80 80 0 1 1 0-160z"/></svg>
+                    <div class="adressAndLabel">
+                        <h5 class="label">office</h5>
+                        <p class="adress">G15 ojabalu street</p>
+                    </div>
+                </div>
+                <div class="newsLetterCont">
+                    <h1 class="newsLetterHeader">news Letter</h1>
+                    <div class="newsLetter">
+                        <input class="newsLetterInput" type="text" placeholder="input your email for latest update">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="svgIcon sendSvg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyRight" id="copyRight"></p>
+    </footer>
+    <script src="../Javascript/script.js"></script>
+    <script src="../Javascript/homeContactForm.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

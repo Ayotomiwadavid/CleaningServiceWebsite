@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff; /* White color code */
+    background-image: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%); /* Smooth gradient for shine effect */
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.aboutHero{
+    width: 100%;
+    height: 70vh;
+    background: url(../images/aboutBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.heroSecOverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.heroSecHeaderDetails{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 20px 10vw;
+}
+
+.heroSecHeaderDetails span{
+    padding: 5px;
+    height: 120px;
+    background-color: purple;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.aboutHeroHeader{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: purple;
+}
+
+.aboutHeroHeaderText{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:767px){
+    .aboutHero{
+        width: 100%;
+        height: 70vh;
+        background: url(../images/aboutBackground.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    
+    .heroSecOverlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    
+    .heroSecHeaderDetails{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 20px 5vw;
+    }
+    
+    .heroSecHeaderDetails span{
+        padding: 5px;
+        height: 120px;
+        background-color: purple;
+        margin: 15px;
+        border-radius: 15px;
+    }
+    
+    .aboutHeroHeader{
+        font-size: 30px;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: purple;
+    }
+    
+    .aboutHeroHeaderText{
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        padding:5px 0;
+    }
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 50px 3vw;
+}
+
+.section img{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+.introCont{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.inroHeader{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bold;
+    color: purple;
+}
+
+.bigHeader{
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px;
+}
+
+.bigHeader span{
+    color: purple;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.intoduction{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.sectionedIntroCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 0;
+}
+
+.sectionedIntro{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    margin: 10px;
+}
+
+.aboutIconCont{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.aboutIconCont svg{
+    fill: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.titleAndDescriptionCont{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: ce;
+}
+
+.tile{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 5px 5px 5px 0;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.secondAbout{
+    background:rgba(177, 71, 219, 0.466);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionHeaderCont{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whyChooseUs{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.whyChooseUs span{
+    color: purple;
+}
+
+.why{
+    font-size: 17px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.reasonsContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    place-items: center;
+    padding: 15px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 10px;
+    padding-bottom: 0;
+    text-transform: capitalize;
+}
+
+.reasondescription{
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+@media screen and (max-width:767px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .bigHeader{
+        font-size: 25px;
+        padding: 10px;
+        width: 100%;
+        font-family: sans-serif;
+    }
+
+    .intoduction{
+        font-size: 16px;
+        font-weight: lighter;
+        font-family: sans-serif;
+        text-align: left;
+    }
+
+    .tile{
+        font-size: 20px;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+
+    .reasonsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+    }
+    .reasonSecIntro{
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .sectionedIntro{
+        width: 100%;
+    }
+}
