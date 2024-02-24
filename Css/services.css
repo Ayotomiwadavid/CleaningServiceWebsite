@@ -11,6 +11,10 @@ body {
     background-attachment: fixed; /* Ensures background remains fixed while scrolling */
 }
 
+a{
+    text-decoration: none;
+}
+
 .servicesHeroSec{
     width: 100%;
     height: 75vh;

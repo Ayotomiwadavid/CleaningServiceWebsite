@@ -11,6 +11,10 @@ body{
     background-attachment: fixed; 
 }
 
+a{
+    text-decoration: none;
+}
+
 .aboutHero{
     width: 100%;
     height: 70vh;

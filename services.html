@@ -4,29 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Css/style.css">
-    <link rel="stylesheet" href="../Css/contact.css">
-    <link rel="stylesheet" href="../Css/about.css">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/services.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
         integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
-    <link rel="shortcut icon" href="../images/Elsa_Logo.webp">
-    <title>Elsa - Contact</title>
+    <link rel="shortcut icon" href="./images/Elsa_Logo.webp" type="image/x-icon">
+    <title>Elsa - services</title>
 </head>
 
 <body>
-    <header class="header" data-aos="fade-up">
+    <header class="header" data-aos="fade-in">
         <div class="logoContainer">
-            <img src="../images/Elsa_Logo.webp" alt="logo">
-        </div>
-        <ul class="navList">
-            <li class="navItem" id="navItem">home</li>
-            <li class="navItem" id="navItem">about</li>
-            <li class="navItem" id="navItem">services</li>
-            <li class="navItem" id="navItem">contact</li>
-        </ul>
-        <i class="fa fa-bars" id="bars" onClick="handleBarsClick()"></i>
+            <img src="./images/Elsa_Logo.webp" alt="logo">
+            </div>
+            <ul class="navList">
+                <a href="./home.html">
+                    <li class="navItem" id="navItem">home</li>
+                </a>
+                <a href="./about.html">
+                    <li class="navItem" id="navItem">about</li>
+                </a>
+                <a href="./services.html">
+                    <li class="navItem" id="navItem">services</li>
+                </a>
+                <a href="./contact.html">
+                    <li class="navItem" id="navItem">contact</li>
+                </a>
+            </ul>
+            <i class="fa fa-bars" id="bars" onClick="handleBarsClick()"></i>
     </header>
     <aside class="sideBar" id="sideBar">
         <div class="switchingIcon">
@@ -39,94 +46,103 @@
             <li class="sideBarNavItem" id="navItem">contact</li>
         </ul>
     </aside>
-    <section class="contactPageHero">
-        <div class="contactHeroOverlay">
+    <section class="servicesHeroSec">
+        <div class="serviceHeroOverlay">
             <span></span>
-            <div class="sectionTextsCont">
-                <p class="pText">contact</p>
-                <h4 class="contactCompanyName">elsa house Cleaning service</h4>
+            <div class="serviceHeroTexts">
+                <h3 class="our">our</h3>
+                <p class="servicesText">services</p>
             </div>
         </div>
     </section>
-    <article class="contactFormSection">
+    <div class="servicesShowCase">
         <div class="headerSection">
-            <div class="letConmect">
-                <h4 class="lets">let's</h4>
-                <p class="connect">connect!</p>
-            </div>
-            <p class="headerText">
-                Have questions or ready to schedule your cleaning service? Reach out to us today! Our friendly team is
-                here to assist you with any inquiries or bookings. Contact us via phone, email, or fill out the form
-                below.
-            </p>
-            <p class="additionalText">connect and let's make your space shine!</p>
+            <h4 class="boldeHeader">Our Cleaning</h4>
+            <p class="lightHeading">Packages</p>
+            <p class="smallSentence">Spotless Cleaning Solutions: We Shine!</p>
         </div>
-        <form class="form" id="contactPageForm">
-            <div class="inputAndLabelCont">
-                <label for="name">name</label>
-                <input type="text" placeholder="your full name" name="name" id="name">
-            </div>
-            <div class="inputAndLabelCont">
-                <label for="email">email adress</label>
-                <input type="email" placeholder="your email adress" name="email" id="email">
-            </div>
-            <div class="inputAndLabelCont">
-                <label for="phoneNumber">contact phone</label>
-                <input type="tel" placeholder="your teliphone number" name="phoneNumber" id="phoneNumber">
-            </div>
-            <div class="inputAndLabelCont">
-                <label for="message">message</label>
-                <textarea name="" id="message" cols="30" rows="10" placeholder="how can we help you"
-                    name="message" id="message"></textarea>
-            </div>
-            <button class="conatactFormSubmitBtn" id="contactsubmitBtn">submit</button>
-        </form>
-    </article>
-    <div class="section">
-        <img src="../images/heroSection.jpg" alt="about img">
-        <div class="introCont">
-            <h4 class="inroHeader">hours of operation</h4>
-            <h1 class="bigHeader">we're here to <span>serve</span> you!</h1>
-            <p class="intoduction">Explore our company office, where efficiency meets excellence. Drop by to discuss
-                your cleaning needs in person or simply to say hello. We're excited to welcome you to our space!
-            </p>
-            <div class="sectionedIntroCont">
-                <div class="sectionedIntro">
-                    <div class="titleAndDescriptionCont">
-                        <h1 class="tile">working hours</h1>
-                        <p class="description">monday - friday 9:00 AM - 6:00 PM
-                            <br>
-                            (including saturday packages)
+        <div class="servicesContainer">
+            <div class="serviceCard">
+                <img src="../images/benefit 1.webp">
+                <div class="serviceDetailsCont">
+                    <h4 class="serviceName">home sweet homemaker</h4>
+                    <p class="serviceDescription">
+                        Elsa House Cleaning Services offers this package, delivering meticulous
+                        attention to detail and a commitment to excellence. Our service transforms spaces into havens of
+                        cleanliness and comfort, ensuring every corner shines with serenity and care.
+                    </p>
+                    <a class="calltoActionLink" href="contact.html">
+                        <p class="calltoAction">continue <svg class="calltoActionsvg" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                            </svg>
                         </p>
-                    </div>
+                    </a>
                 </div>
-                <div class="sectionedIntro">
-                    <div class="titleAndDescriptionCont">
-                        <h1 class="tile">phone and email</h1>
-                        <p class="description">+1240-626-9909
-                            <br>
-                            olusanyatomiwa97@gmail.com
+            </div>
+            <div class="serviceCard">
+                <img src="../images/benefit 2.jpg">
+                <div class="serviceDetailsCont">
+                    <h4 class="serviceName">sparkling sanctuary</h4>
+                    <p class="serviceDescription">
+                        Our comprehensive cleaning package ensures every corner receives meticulous attention,
+                        transforming spaces into pristine sanctuaries of cleanliness and comfort.From wall to wall, we
+                        leave no corner untouched, creating a haven you'll love to come home to.
+                    </p>
+                    <a class="calltoActionLink" href="contact.html">
+                        <p class="calltoAction">continue <svg class="calltoActionsvg" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                            </svg>
                         </p>
-                    </div>
+                    </a>
                 </div>
-                <div class="sectionedIntro">
-                    <div class="titleAndDescriptionCont">
-                        <h1 class="tile">location</h1>
-                        <p class="description">
-                            G15 ojabalu street, efon alaaye, ekiti state, nigeria.
+            </div>
+            <div class="serviceCard">
+                <img src="../images/benefit 4.jpg">
+                <div class="serviceDetailsCont">
+                    <h4 class="serviceName">customized core</h4>
+                    <p class="serviceDescription">
+                        Tailored solutions by Elsa House Cleaning Services to match your unique needs. We personalize
+                        our approach, focusing on your core cleaning requirements, ensuring a pristine and satisfying
+                        result every time. Experience cleanliness designed just for you.
+                    </p>
+                    <a class="calltoActionLink" href="contact.html">
+                        <p class="calltoAction">continue <svg class="calltoActionsvg" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512">
+                                <path
+                                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                            </svg>
                         </p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-    <div class="wrapper">
-        <div class="ladConatiner">
-            <p class="introtextforlastsec">
-                By choosing elsa house cleaning service, you're not only investing in a clean home but also in a brghter,
-                healthier future. Join our community of satisfied clients who enjoy the advantages of a pristine,
-                eco-friendly environment.
+    <div class="pricingSection">
+        <div class="pricingOverlay">
+            <h4 class="bigTitle">
+                pricing
+            </h4>
+            <p class="pricingtext">
+                Our pricing structure reflects our dedication to affordability and quality. With transparent rates and
+                flexible packages, we ensure every budget finds its perfect fit. Experience exceptional service without
+                compromising on excellence. Discover value with every clean.
             </p>
+        </div>
+    </div>
+    <div class="learnMoreAboutPrice">
+        <div class="imageContainer">
+            <img src="../images/design.png" alt="">
+        </div>
+        <div class="detailsCont">
+            <h1 class="bigHeaderText">want to know more about our <p>pricing?</p> </h1>
+            <p class="smallHeaderText">get a free quote from our expert</p>
+            <a href="contact.html" class="contactLinkForBtn">
+                <button class="quoteBtn">reach out to us now</button>
+            </a>
         </div>
     </div>
     <footer class="footer" id="footer">
@@ -217,9 +233,7 @@
         </div>
         <p class="copyRight" id="copyRight"></p>
     </footer>
-    <script src="../Javascript/script.js"></script>
-    <script src="../Javascript/contactForm.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./Javascript/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

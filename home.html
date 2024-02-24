@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="./Css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
-    <link rel="shortcut icon" href="../images/Elsa_Logo.webp">
+    <link rel="shortcut icon" href="./images/Elsa_Logo.webp">
     <title>Elisa House Cleaning Service</title>
 </head>
 <body>
     <header class="header" data-aos="fade-in">
         <div class="logoContainer">
-            <img src="../images/Elsa_Logo.webp" alt="logo">
+            <img src="./images/Elsa_Logo.webp" alt="logo">
             </div>
             <ul class="navList">
-            <li class="navItem" id="navItem">home</li>
-            <li class="navItem" id="navItem">about</li>
-            <li class="navItem" id="navItem">services</li>
-            <li class="navItem" id="navItem">contact</li>
+                <a href="./home.html">
+                    <li class="navItem" id="navItem">home</li>
+                </a>
+                <a href="./about.html">
+                    <li class="navItem" id="navItem">about</li>
+                </a>
+                <a href="./services.html">
+                    <li class="navItem" id="navItem">services</li>
+                </a>
+                <a href="./contact.html">
+                    <li class="navItem" id="navItem">contact</li>
+                </a>
             </ul>
             <i class="fa fa-bars" id="bars" onClick="handleBarsClick()"></i>
     </header>
@@ -266,8 +274,8 @@
         </div>
         <p class="copyRight" id="copyRight"></p>
     </footer>
-    <script src="../Javascript/script.js"></script>
-    <script src="../Javascript/homeContactForm.js"></script>
+    <script src="./Javascript/script.js"></script>
+    <script src="./Javascript/homeContactForm.js"></script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
