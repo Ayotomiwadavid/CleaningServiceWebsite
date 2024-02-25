@@ -37,7 +37,6 @@ navItems.forEach((navItem) =>{
 })
 navList.forEach((navListItem) =>{
     navListItem.addEventListener('click', () =>{
-        location.href = `${navListItem.textContent}.html`
         this.classList.add('active');
     })
 })
