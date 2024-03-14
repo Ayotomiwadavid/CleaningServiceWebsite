@@ -27,7 +27,7 @@ let handleTimesClick = () => {
 let date = new Date();
 let year = date.getFullYear();
 copyRightowner.innerHTML +=
-  "© copy right elisa house cleaning service | all right reserved " + year;
+  "© copy right elsa house cleaning service | all right reserved " + year;
 
 //start making navItems dynamic
 navItems.forEach((navItem) =>{
